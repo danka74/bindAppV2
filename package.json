@@ -1,0 +1,25 @@
+{
+  "name": "bindAppV2",
+  "version": "0.0.1",
+  "description": "Binding study app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danka74/bindAppV2.git"
+  },
+  "author": "Daniel Karlsson",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/danka74/bindAppV2/issues"
+  },
+  "homepage": "https://github.com/danka74/bindAppV2",
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
